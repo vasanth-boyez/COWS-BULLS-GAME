@@ -60,7 +60,7 @@
             const guess = parseInt(document.getElementById('guess').value);
 
             if (isNaN(guess) || guess < 1000 || guess > 9999 || !noDuplicates(guess)) {
-                alert("Invalid Guess! Enter a 4-digit number without repeated digits and between >1000 & <9999.");
+                alert("Invalid Guess! Enter a 4-digit number without repeated digits and between 1000 & 9999.");
                 return;
             }
 
